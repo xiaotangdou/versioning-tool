@@ -1,0 +1,31 @@
+{
+  "name": "versioning-tool",
+  "version": "1.0.0",
+  "description": "版本管理工具",
+  "main": "index.js",
+  "bin": {
+    "vtool": "./lib/index.js"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaotangdou/versioning-tool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaotangdou/versioning-tool/issues"
+  },
+  "homepage": "https://github.com/xiaotangdou/versioning-tool#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "libnpmversion": "^1.1.0"
+  }
+}
